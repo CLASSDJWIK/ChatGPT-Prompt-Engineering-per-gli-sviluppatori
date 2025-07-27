@@ -1,5 +1,19 @@
 # Guidelines for Prompting
 In this lesson, you'll practice two prompting principles and their related tactics in order to write effective prompts for large language models.
+You can use the latest version of the LLM model like 
+from openai import OpenAI
+client = OpenAI()
+
+```python
+response = client.responses.create(
+    model="gpt-4.1",
+    input="Write a one-sentence bedtime story about a unicorn."
+)
+
+print(response.output_text)
+
+console.log(response.output_text);
+```
 
 ## Setup
 #### Load the API key and relevant Python libaries.
